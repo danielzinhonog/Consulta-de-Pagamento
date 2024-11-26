@@ -1,0 +1,15 @@
+PEDIDO
+Preciso de um bot assistente que realize a automação de consulta de pagamentos da empresa em que trabalho. 
+O processo seria o seguinte: forneço uma planilha Excel com informações como nome, valor, vencimento e CPF do cliente, 
+e o bot acessa o sistema web da empresa para verificar se os pagamentos foram realizados. 
+Caso estejam pagos, ele registra a data do pagamento e atualiza a planilha com uma confirmação, como "OK". 
+Dessa forma, posso focar em outras atividades enquanto o bot automatiza esse procedimento repetitivo e maçante.
+
+FUNCIONALIDADES NECESSÁRIAS
+# Entrar na planilha e extrair as informações do cliente
+# Entrar no site (https://consultcpf-devaprender.netlify.app/) e usar o cpf da planilha para pesquisar o status de pagamento do cliente
+# Verificar se o pagamento está "em dia" ou "atrasado"
+# Se estiver "em dia", pegar a data do pagamento e o método do pagamento
+# Caso contrário, colocar o status como pendente
+# Inserir essas novas informações (dados da planilha original) em uma nova planilha
+# Repetir até chegar no último cliente
